@@ -11,10 +11,10 @@ Ops teams often find out a client is leaving *after* they've gone. This project 
 2,600 clients with onboarding, engagement, payment, and satisfaction attributes. *(Synthetic dataset generated to mirror a real client-health schema — no real client data is used.)*
 
 ## Approach
-1. **Clean** — fixed inconsistent plan labels, imputed missing NPS / login values.
-2. **Explore** — churn rate by plan; late-payment and inactivity patterns.
-3. **Model** — Logistic Regression (chosen for interpretability over raw accuracy), standardised features, 75/25 train-test split.
-4. **Score** — every client gets a churn probability, a risk tier (Low/Med/High), and a revenue-at-risk figure that feeds a Power BI dashboard.
+1. **Clean** : fixed inconsistent plan labels, imputed missing NPS / login values.
+2. **Explore** : churn rate by plan; late-payment and inactivity patterns.
+3. **Model** : Logistic Regression (chosen for interpretability over raw accuracy), standardised features, 75/25 train-test split.
+4. **Score** : every client gets a churn probability, a risk tier (Low/Med/High), and a revenue-at-risk figure that feeds a Power BI dashboard.
 
 ## Results
 - **ROC AUC: 0.75**
